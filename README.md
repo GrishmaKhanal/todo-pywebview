@@ -7,3 +7,5 @@
 
 ### In wayland
     pacman -S qt5-wayland 
+
+pyinstaller --onefile --add-data "src/frontend:frontend" src/main.py
